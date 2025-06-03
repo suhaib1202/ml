@@ -33,5 +33,6 @@ def main():
  centers, labels = apply_kmeans(X, n_clusters=2)
  visualize_clusters(X, labels, centers)
 
+
 if __name__ == "__main__":
  main()
